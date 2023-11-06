@@ -11,7 +11,7 @@ mvn compile & mvn package
 # Deployement - Your can download last release
 
 ```sh
-COPY ./target/*.jar /opt/keycloak/providers/
+cp -r ./target/*.jar /opt/keycloak/providers/
 ```
 
 # Credit
